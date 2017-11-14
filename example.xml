@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<manifest>  
+	<remote name="origin" fetch="https://github.com/harryyue/manifest" />  
+	<default revision="master" remote="origin" />  
+	<project name="ADC" path="ADC"/>  
+</manifest>  

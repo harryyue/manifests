@@ -1,0 +1,22 @@
+*~
+*.orig
+.*.swp
+.DS_Store
+*.diff
+*.patch
+*.o
+*.o.*
+
+# cscope files
+cscope.*
+ncscope.*
+
+# Clang's compilation database file
+/compile_commands.json
+/compile_commands*.json
+/.cache
+
+# Top-level generic files
+#
+/tags
+/TAGS
