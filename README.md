@@ -6,8 +6,10 @@ This repository is use to hold the manifest for BlackBeagleBone.The description 
 
 The method to get the source code of project:
 
-**Step1:**initialize the project‘s repository by repo
+**Step1**:initialize the project‘s repository by repo
+
 `repo init -u https://github.com/harryyue/manifests -m BlackBeagleBone.xml -b BlackBeagleBone`
 
-**Step2:**download the source code by repo
+**Step2**:download the source code by repo
+
 `repo sync`
