@@ -1,4 +1,12 @@
-# README
-This Repository is used to collect manifests files for all of project.
+# Introduction
+---
+This repository is use to hold the manifest for tiny4412.The description of manifest is below:  
++ **example.xml**:a example of manifest.xml  
++ **manifest_for_tiny4412_base.xml**:the manifest of project tiny4412.uboot:2010.12;kernel:3.15;busybox:1.72  
 
-+ **example.xml:** a example of manifest.xml
+The method to get the source code of project:
+**Step1:**initialize the project‘s repository by repo
+`repo init -u https://github.com/harryyue/manifests -m manifest_for_tiny4412_base.xml -b Tiny4412`
+
+**Step2:**download the source code by repo
+`repo sync`
