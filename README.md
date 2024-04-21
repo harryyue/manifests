@@ -5,6 +5,7 @@ This repository is use to hold the manifest for BlackBeagleBone.The description 
 + **BlackBeagleBone.xml**:the manifest of project BlackBeagleBone.uboot:2014.04;kernel:3.8.13
 
 The method to get the source code of project:
+
 **Step1:**initialize the project‘s repository by repo
 `repo init -u https://github.com/harryyue/manifests -m BlackBeagleBone.xml -b BlackBeagleBone`
 
