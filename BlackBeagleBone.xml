@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<manifest>  
+	<remote name="origin" fetch="https://github.com/harryyue/" />  
+	<default revision="master" remote="origin" />
+	
+	<project name="Project_Configuration" path="."/>
+	<project name="uboot_2014.04-for-BBB" path="Uboot"/>
+	<project name="linux_3.8.13-for-BBB" path="Kernel"/>
+</manifest> 
