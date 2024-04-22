@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="crash" fetch="https://github.com/crash-utility/" />
+	<remote name="fujitsu" fetch="https://github.com/fujitsu/" />
+	<default revision="master" remote="crash" sync_j="8"  sync_c="true" />
+
+	<project name="crash" path="." revision="a6832f608cb5d473739cf33bbf84ab1df8d98fd5" />
+
+	<project name="crash-extensions" path="extensions/crash-extensions">
+		<copyfile dest="extensions/memutils.c" src="memutils.c" />
+		<copyfile dest="extensions/sockq.c" src="sockq.c" />
+	</project>
+	<project remote="fujitsu" name="crash-gcore" path="extensions/crash-gcore" revision="5a5a81c20c153d97946d2086cd063acaea7a6976" />
+	<project remote="fujitsu" name="crash-trace" path="extensions/crash-trace" revision="5f1580747e5cdd40653e96c350cad64da14f14e0">
+		<linkfile dest="extensions/trace.c" src="trace.c" />
+	</project>
+</manifest>
